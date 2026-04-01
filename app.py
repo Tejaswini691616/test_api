@@ -25,7 +25,7 @@ def get_comments():
     response = requests.request("GET", url, headers=headers, data=payload)
     return jsonify({
         "data": response.json(),
-        "status": "success message",
+        "status": "singing songs",
         "status_code": 200
     })
 
